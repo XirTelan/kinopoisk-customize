@@ -1,0 +1,79 @@
+body {
+  background: red;
+}
+.ext-nav {
+  display: inline-block;
+  position: relative;
+}
+.ext-nav--inner {
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  margin-block-start: 2.4rem;
+  margin-block-end: 1.2rem;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-end: 1.2rem;
+  opacity: 0.6;
+  color: var(--color);
+  border: solid transparent;
+  border-width: 0 0 0.2rem;
+  transition: color var(--transition-parameters),
+    opacity var(--transition-parameters);
+}
+.ext-nav:hover .ext-nav--inner {
+  opacity: 1;
+  cursor: pointer;
+}
+.genres-container {
+  opacity: 0;
+  cursor: default;
+  visibility: hidden;
+  position: absolute;
+  background: var(--charcoal);
+  width: 50vw;
+  height: auto;
+  transform: translate(-50%, 0);
+  transition: all 0.2s ease-in-out;
+  border-radius: 0 0 1rem 1rem;
+}
+.genres-container > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+.genres-item {
+  width: 12rem;
+  height: 12rem;
+}
+.genres-item > a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+  background: var(--charcoal);
+}
+.genres-item .genres-item--img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: inherit;
+  height: inherit;
+  transition: scale 0.3s ease-in-out;
+}
+.genres-item--img:hover {
+  scale: 1.2;
+}
+
+#genres_ext:hover {
+  background: var(--charcoal);
+}
+#genres_ext:hover .genres-container {
+  visibility: visible;
+  opacity: 1;
+}

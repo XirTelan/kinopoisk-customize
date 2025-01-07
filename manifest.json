@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "kinopoisk-customize",
+  "description": "Расширение позволяет настроить меню кинопоиска. Скрыть ненужные разделы и некоторе дополнительные мелочи для удобства ",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://hd.kinopoisk.ru/*"],
+      "js": ["page.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["resources/*"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "options_page": "settings/settings.html",
+  "icons": {
+    "16": "resources/16x16.png",
+    "48": "resources/48x48.png",
+    "128": "resources/128x128.png"
+  },
+  "action": {
+    "default_title": "Kinopoisk Customize",
+    "default_popup": "settings/settings.html"
+  },
+  "permissions": ["storage"]
+}

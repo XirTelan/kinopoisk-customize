@@ -1,0 +1,75 @@
+:root {
+  --clr-background: #161616;
+  --clr-text-main: #fff;
+}
+body {
+  color: var(--clr-text-main);
+  background: var(--clr-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  margin: 1rem;
+  min-width: 10rem;
+  max-width: 340px;
+}
+.checkbox {
+  cursor: pointer;
+  position: relative;
+  appearance: none;
+  min-width: 3rem;
+  width: 3rem;
+  height: 1.5rem;
+  background: #333;
+  border-radius: 2rem;
+  transition: background-color 0.5s ease-in;
+}
+.checkbox::after {
+  position: absolute;
+  content: "";
+  width: 1.5rem;
+  height: 100%;
+  background: #fff;
+  border-radius: 100%;
+  transform: translate(0%, 0);
+  transition: transform 0.2s ease-in-out;
+}
+.checkbox:checked {
+  background: green;
+}
+.checkbox:checked::after {
+  transform: translate(100%, 0);
+}
+
+.configBlock {
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: column;
+}
+.configBlock-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (width >= 340px) {
+  .container {
+    max-width: 640px;
+    margin: auto;
+  }
+}
+
+@media (width >= 640px) {
+  .container {
+    max-width: 768px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "genresList": [
+    {
+      "title": "комедии",
+      "href": "/selection/1",
+      "img": "//avatars.mds.yandex.net/get-ott/223007/2a0000018438302568b271ccc82563762fda/720x360"
+    },
+    {
+      "title": "фэнтези",
+      "href": "/selection/42",
+      "img": "//avatars.mds.yandex.net/get-ott/1652588/2a0000018438661c1d5d9534909bb30d0a26/720x360"
+    },
+    {
+      "title": "семейные",
+      "href": "/selection/146",
+      "img": "//avatars.mds.yandex.net/get-ott/1531675/2a000001843884b6c652e846be0d1a34042f/720x360"
+    },
+    {
+      "title": "мультфильмы",
+      "href": "/selection/142",
+      "img": "//avatars.mds.yandex.net/get-ott/239697/2a00000184383c5f598751adbfaf25daef1b/720x360"
+    },
+    {
+      "title": "проспорт",
+      "href": "/selection/1519",
+      "img": "//avatars.mds.yandex.net/get-ott/1652588/2a00000184388b8a8a7d4e4601e6bba4410f/720x360"
+    },
+    {
+      "title": "фантастика",
+      "href": "/selection/40",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a000001843844c85b8b9074853af40c5f51/720x360"
+    },
+    {
+      "title": "приключения",
+      "href": "/selection/138",
+      "img": "//avatars.mds.yandex.net/get-ott/2439731/2a000001843865926b014c8f0d542b7c3205/720x360"
+    },
+    {
+      "title": "драмы",
+      "href": "/selection/4",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a000001843892886831c9143cc8a793ff40/720x360"
+    },
+    {
+      "title": "ромкомы",
+      "href": "/selection/1056",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a00000184388ca33b0a2f2feca21ec939d9/720x360"
+    },
+    {
+      "title": "мистика",
+      "href": "/selection/1055",
+      "img": "//avatars.mds.yandex.net/get-ott/1672343/2a00000184388d0d7dcf20954451b83b5701/720x360"
+    },
+    {
+      "title": "триллеры",
+      "href": "/selection/5",
+      "img": "//avatars.mds.yandex.net/get-ott/239697/2a00000184388fae65f740ea391765d55e4f/720x360"
+    },
+    {
+      "title": "музыкальные",
+      "href": "/selection/1520",
+      "img": "//avatars.mds.yandex.net/get-ott/1672343/2a00000184388c71c6c0df025d421f8b2c25/720x360"
+    },
+    {
+      "title": "ужасы",
+      "href": "/selection/2",
+      "img": "//avatars.mds.yandex.net/get-ott/1652588/2a0000018438345d1f13f3052ff693c01cc6/720x360"
+    },
+    {
+      "title": "детективы",
+      "href": "/selection/140",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a0000018438799210583ef1dd416bad351a/720x360"
+    },
+    {
+      "title": "аниме",
+      "href": "/selection/",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a000001843864cc7034123a70c2335705ec/720x360"
+    },
+    {
+      "title": "боевики",
+      "href": "/selection/101",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a000001843847ce092f99de54ec03f9908f/720x360"
+    },
+    {
+      "title": "мелодрамы",
+      "href": "/selection/3",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a00000184387ced83a0309d9dbd841184f9/720x360"
+    },
+    {
+      "title": "дорамы",
+      "href": "/selection/2207",
+      "img": "//avatars.mds.yandex.net/get-ott/374297/2a00000185cd46e5f8e821c4a4cce46adc18/720x360"
+    },
+    {
+      "title": "исторические",
+      "href": "/selection/141",
+      "img": "//avatars.mds.yandex.net/get-ott/1534341/2a0000018438825ae96489247215e47b9304/720x360"
+    },
+    {
+      "title": "документальные",
+      "href": "/selection/147",
+      "img": "//avatars.mds.yandex.net/get-ott/374297/2a000001843885edab5f84cbec1820813112/720x360"
+    },
+    {
+      "title": "криминальные",
+      "href": "/selection/139",
+      "img": "//avatars.mds.yandex.net/get-ott/374297/2a000001843888a15f3b7d0e8712c608e238/720x360"
+    },
+    {
+      "title": "биографии",
+      "href": "/selection/148",
+      "img": "//avatars.mds.yandex.net/get-ott/2419418/2a000001843886c2161b6f0991ed2302ec27/720x360"
+    },
+    {
+      "title": "вестерны",
+      "href": "/selection/149",
+      "img": "//avatars.mds.yandex.net/get-ott/2419418/2a00000184388b60f91fc94eb7c7925918c9/720x360"
+    },
+    {
+      "title": "короткометражки",
+      "href": "/selection/150",
+      "img": "//avatars.mds.yandex.net/get-ott/2439731/2a00000184388c07439712075f62cff0387d/720x360"
+    }
+  ]
+}
