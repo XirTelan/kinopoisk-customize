@@ -1,6 +1,6 @@
 # 
 ![image](https://github.com/user-attachments/assets/c609294b-d8e9-4d4e-8008-78af7e389f11)
-![image](https://github.com/user-attachments/assets/a909d2c9-9347-4a2d-aeac-0f8c2cd96449)
+![image](https://github.com/user-attachments/assets/38d3e106-8952-4261-b0e8-7e051f01a2cf)
 
 Браузерное расширение позволяющие настроить панель онлайн кинопоиска (hd.kinopoisk.ru)
 
