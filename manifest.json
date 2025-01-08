@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "kinopoisk-customize",
   "description": "Расширение позволяет настроить меню кинопоиска. Скрыть ненужные разделы и некоторе дополнительные мелочи для удобства ",
-  "version": "1.0",
+  "version": "1.1",
 
   "content_scripts": [
     {
@@ -28,5 +28,10 @@
     "default_title": "Kinopoisk Customize",
     "default_popup": "settings/settings.html"
   },
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "xiruo.telan@gmail.com"
+    }
+  }
 }

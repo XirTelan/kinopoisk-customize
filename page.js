@@ -1,28 +1,32 @@
 const navElements = {
   my: {
     value: "hideMy",
-    selector: 'a[href="/personal"]',
+    selector: 'a[href$="/personal"]',
   },
   promo: {
     value: "hidePromo",
-    selector: 'a[href="/promo"]',
+    selector: 'a[href$="/promo"]',
   },
   channels: {
     value: "hideChannels",
-    selector: 'a[href="/channels"]',
+    selector: 'a[href$="/channels"]',
   },
   sport: {
     value: "hideSport",
-    selector: 'a[href="https://hd.kinopoisk.ru/sport/"]',
+    selector: 'a[href$="/sport/"]',
   },
   games: {
     value: "hideGames",
-    selector: 'a[href="/games"]',
+    selector: 'a[href$="/games"]',
   },
 };
 
+if (!browser) {
+  var browser = chrome;
+}
+
 function getResourceContent(fileName) {
-  return fetch(chrome.runtime.getURL(`resources/${fileName}`)).then((resp) =>
+  return fetch(browser.runtime.getURL(`resources/${fileName}`)).then((resp) =>
     resp.json()
   );
 }
@@ -47,8 +51,9 @@ document.onreadystatechange = () => {
 };
 
 async function main() {
-  const { config } = (await chrome.storage.local.get("config")) ?? {};
-  const navBar = document.querySelector(`nav>ul`);
+  const { config } = (await browser.storage.local.get("config")) ?? {};
+  const navBar =
+    document.querySelector(`nav>ul`) ?? document.querySelector("nav");
 
   Object.entries(navElements).forEach(([key, { value, selector }]) => {
     const status = config ? config[value] ?? false : false;
@@ -115,5 +120,3 @@ async function main() {
     navBar.append(newNavItem);
   }
 }
-
-// navBar.querySelector('a[href="/games"]').parentElement.remove();
