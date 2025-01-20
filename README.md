@@ -4,6 +4,8 @@
 
 Браузерное расширение позволяющие настроить панель онлайн кинопоиска (hd.kinopoisk.ru)
 
+Firefox addon: https://addons.mozilla.org/ru/firefox/addon/kinopoisk-customize/  
+
 ## Возможности
 ![image](https://github.com/user-attachments/assets/1e697133-8e0b-458a-bc73-a767e1fdbe8c)
 
@@ -27,7 +29,7 @@
   Нажатие на изображение слева ведет на kinopoisk.ru . Данная опция заменяет на hd.kinopoisk.ru 
 
 ## Совместимость
-
-Рассширение сделано на основе chrome
-
-Проверено также в yandex browser 24.12.2.856 (64-bit)
+Проверено в следующих браузерах:
+Yandex browser 24.12.2.856 (64-bit)
+Firefox browser 134.0.1 (64-bit)
+Chrome 131.0.6778.265 
