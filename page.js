@@ -92,6 +92,9 @@ async function main() {
   }
 
   async function addGenres() {
+    const isAlreadyExist = navBar.querySelector(`#genres_ext`);
+    if (isAlreadyExist) return;
+
     const newNavItem = createNavItem("Жанры");
     newNavItem.setAttribute("id", "genres_ext");
 
