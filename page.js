@@ -21,6 +21,16 @@ const navElements = {
   },
 };
 
+const defaultConfig = {
+  hideMy: false,
+  hidePromo: false,
+  hideChannels: false,
+  hideGames: false,
+  changeBase: false,
+  removeChild: false,
+  addGenres: false,
+};
+
 if (!browser) {
   var browser = chrome;
 }
@@ -51,17 +61,19 @@ document.onreadystatechange = () => {
 };
 
 async function main() {
-  const { config } = (await browser.storage.local.get("config")) ?? {};
+  const { config } = (await browser.storage.local.get("config")) ?? {
+    config: defaultConfig,
+  };
   const navBar =
     document.querySelector(`nav>ul`) ?? document.querySelector("nav");
 
   Object.entries(navElements).forEach(([key, { value, selector }]) => {
-    const status = config ? config[value] ?? false : false;
+    const status = config[value];
     if (status) removeFromNav(selector);
   });
-  const isChangeBase = config["changeBase"] ?? false;
-  const isRemoveChilds = config["removeChild"] ?? false;
-  const isAddGenresPage = config["addGenres"] ?? false;
+  const isChangeBase = config["changeBase"];
+  const isRemoveChilds = config["removeChild"];
+  const isAddGenresPage = config["addGenres"];
 
   if (isRemoveChilds)
     document
