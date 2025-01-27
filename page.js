@@ -119,7 +119,6 @@ function createToTopBtn() {
 
   document.addEventListener("scroll", (e) => {
     const scrollY = window.scrollY;
-    console.log("scroll", scrollY, e);
     if (scrollY < 200) elem.classList.add("ext_hidden");
     else elem.classList.remove("ext_hidden");
   });
