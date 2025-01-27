@@ -27,7 +27,7 @@ body {
   opacity: 1;
   cursor: pointer;
 }
-.genres-container {
+.ext-container {
   opacity: 0;
   cursor: default;
   visibility: hidden;
@@ -39,7 +39,7 @@ body {
   transition: all 0.2s ease-in-out;
   border-radius: 0 0 1rem 1rem;
 }
-.genres-container > ul {
+.ext-container > ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -70,10 +70,47 @@ body {
   scale: 1.2;
 }
 
-#genres_ext:hover {
+#selection_ext ul {
+  flex-direction: column;
+}
+#selection_ext .ext-container {
+  width: fit-content;
+  transform: translate(0);
+}
+#selection_ext a {
+  text-decoration: none;
+  color: var(--color);
+  opacity: 0.6;
+}
+
+#selection_ext a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.ext-nav:hover {
   background: var(--charcoal);
 }
-#genres_ext:hover .genres-container {
+
+.ext-nav:hover .ext-container {
   visibility: visible;
   opacity: 1;
+}
+
+.ext_toTop {
+  --size: 5rem;
+  position: fixed;
+  z-index: 99;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 2rem;
+  width: var(--size);
+  height: var(--size);
+  background: var(--charcoal);
+  border-radius: 0.5rem;
+}
+
+.ext_hidden {
+  display: none;
 }

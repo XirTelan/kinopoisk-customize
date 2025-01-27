@@ -6,14 +6,17 @@ const defaultConfig = {
   changeBase: false,
   removeChild: false,
   addGenres: false,
+  addToTopBtn: false,
+  addSelections: false,
 };
+
 const inputs = document.querySelectorAll('input[type="checkbox"]');
 
 if (!browser) {
   var browser = chrome;
 }
 
-(async function main() {
+async function main() {
   const data = (await browser.storage.local.get("config")) ?? defaultConfig;
   const config = data?.config || defaultConfig;
   const saveChanges = async (e) => {
@@ -27,4 +30,6 @@ if (!browser) {
     input.checked = config ? config[input.getAttribute("name")] : false;
     input.addEventListener("click", saveChanges);
   });
-})();
+}
+
+main();

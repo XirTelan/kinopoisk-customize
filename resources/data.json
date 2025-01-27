@@ -120,5 +120,19 @@
       "href": "/selection/150",
       "img": "//avatars.mds.yandex.net/get-ott/2439731/2a00000184388c07439712075f62cff0387d/720x360"
     }
+  ],
+  "selections": [
+    {
+      "title": "Топ 250 Кинопоиска",
+      "href": "/selection/top_250_films"
+    },
+    {
+      "title": "Новинки",
+      "href": "/selection/novelties"
+    },
+    {
+      "title": "Фильмы для вас",
+      "href": "/selection/personal_films"
+    }
   ]
 }

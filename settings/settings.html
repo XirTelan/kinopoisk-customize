@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="settings.css" />
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <h2>Основное</h2>
       <div class="configBlock">
         <div class="configBlock-input">
@@ -75,6 +75,18 @@
           />
         </div>
       </div>
+      <div class="configBlock">
+        <div class="configBlock-input">
+          <label>Добавить "Подборки"</label>
+          <input
+            class="checkbox"
+            id="addSelections"
+            type="checkbox"
+            aria-label=""
+            name="addSelections"
+          />
+        </div>
+      </div>
       <h2>Прочее</h2>
       <div class="configBlock">
         <div class="configBlock-input">
@@ -88,6 +100,16 @@
           />
         </div>
         <div class="configBlock-input">
+          <label>Добавить кнопку "Наверх"</label>
+          <input
+            class="checkbox"
+            id="addToTopBtn"
+            type="checkbox"
+            aria-label=""
+            name="addToTopBtn"
+          />
+        </div>
+        <div class="configBlock-input">
           <label>Заменить ссылку у логотипа на "hd.kinopoisk.ru"</label>
           <input
             class="checkbox"
@@ -98,6 +120,12 @@
           />
         </div>
       </div>
-    </div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/XirTelan/kinopoisk-customize" target="_blank"
+        >GitHub</a
+      >
+      <span> version 1.3 </span>
+    </footer>
   </body>
 </html>

@@ -59,6 +59,12 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  color: hsla(0, 0%, 100%, 0.363);
+}
 
 @media (width >= 340px) {
   .container {
