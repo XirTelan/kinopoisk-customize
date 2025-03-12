@@ -12,12 +12,17 @@ Firefox addon: https://addons.mozilla.org/ru/firefox/addon/kinopoisk-customize/
 
 
 ### Основное 
+
+![image](https://github.com/user-attachments/assets/45739d6a-ccc0-4b9d-a572-946830a8e2fa)
+
 данные опции позволяют скрыть стандартные поля навигации.
 
+
 ### Дополнительное 
-1. Добавляет возможность навигации по жанрам и не искать данный блок на самомй странице где-то внизу
 
 ![image](https://github.com/user-attachments/assets/2212b929-0ccb-4e9d-b15d-0c8913a4af33)
+
+1. Добавляет возможность навигации по жанрам и не искать данный блок на самомй странице где-то внизу
 
 2. Добовляет поле подборки. (На данный момент: топ 250, Новинки, Фильмы для вас)
 
@@ -42,3 +47,5 @@ Firefox addon: https://addons.mozilla.org/ru/firefox/addon/kinopoisk-customize/
 Yandex browser 24.12.2.856 (64-bit)
 Firefox browser 134.0.1 (64-bit)
 Chrome 131.0.6778.265 
+Opera One(version: 116.0.5366.51)
+
