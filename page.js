@@ -28,6 +28,7 @@ const defaultConfig = {
   hideGames: false,
   changeBase: false,
   removeChild: false,
+  removeTV: false,
   addGenres: false,
   addToTopBtn: false,
   addSelections: false,
@@ -77,6 +78,10 @@ async function main() {
     document
       .querySelector('button[aria-label="Войти в профиль Дети"]')
       ?.remove();
+  //TODO one day - replace block with for of
+
+  if (config.removeTV)
+    document.querySelector('a[href*="/smarttv_instruction"]')?.remove();
 
   if (config.changeBase) {
     document

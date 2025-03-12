@@ -5,6 +5,7 @@ const defaultConfig = {
   hideGames: false,
   changeBase: false,
   removeChild: false,
+  removeTV: false,
   addGenres: false,
   addToTopBtn: false,
   addSelections: false,

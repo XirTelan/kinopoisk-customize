@@ -131,6 +131,10 @@
       "href": "/selection/novelties"
     },
     {
+      "title": "Теперь в подписке",
+      "href": "/selection/now_in_subscription"
+    },
+    {
       "title": "Фильмы для вас",
       "href": "/selection/personal_films"
     }
